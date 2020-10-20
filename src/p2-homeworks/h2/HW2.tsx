@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import Affairs from "./Affairs";
+import AlternativeAffairs from "./AlternativeAffairs";
+import s from "./Affairs.module.css"
 
 // types
 export type AffairPriorityType = "high" | "middle" | "low"; // need to fix any
@@ -36,7 +38,7 @@ function HW2() {
     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id)); // need to fix any
 
     return (
-        <div>
+        <div className={s.main_block}>
             <hr/>
             homeworks 2
 
@@ -49,7 +51,7 @@ function HW2() {
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeAffairs/>*/}
+            <AlternativeAffairs/>
             <hr/>
         </div>
     );

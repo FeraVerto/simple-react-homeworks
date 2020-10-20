@@ -1,3 +1,66 @@
-.someClass {
 
+.body {
+    padding: 20px;
+    width: 200px;
+    min-height: 150px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: blanchedalmond;
 }
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.affair {
+    display: flex;
+    justify-content: space-between;
+    overflow:hidden;
+}
+
+.name {
+    color: black;
+    width: 150px;
+    border-bottom: 2px solid mediumseagreen;
+    text-transform: uppercase;
+    overflow:hidden;
+}
+
+.name:hover {
+    color: blue;
+}
+
+.del_button button {
+    border: 2px solid lightcoral;
+    background-color: lightcoral;
+}
+
+.del_button button:hover {
+    border: 2px solid red;
+    background-color: red;
+}
+
+.filter_button {
+    margin: 0 auto;
+    margin-top: 10px
+}
+
+.filter_button button {
+    margin-right: 5px;
+    border: 2px solid yellowgreen;
+    background-color: yellowgreen;
+}
+
+.filter_button button:hover {
+    border: 2px solid green;
+    background-color: green;
+}
+
