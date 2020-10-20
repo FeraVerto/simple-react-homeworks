@@ -23,7 +23,11 @@ function Message(props: HW1PropsType) {
                     <div className={s.message_text}>{props.message}</div>
                     <div className={s.time}>{props.time}</div>
                 </div>
+
+
+
             </div>
+
         </div>
     );
 }
