@@ -1,7 +1,65 @@
-.someClass {
+.inputBlock {
+    margin: 0 auto;
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    text-transform: uppercase;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 
+.someClass,
+.inputBlock span:nth-child(1),
+.error {
+    padding: 0 15px;
+    height: 50px;
+}
+
+.someClass {
+    border: 2px solid #b1ff9a;
+    border-radius: 10px;
+}
+
+.inputBlock span:nth-child(1) {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    font-size: 15px;
 }
 
 .error {
-    border: 1px solid red;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.errorText,
+.button {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.errorText {
+    padding-top: 10px;
+    margin: 0 auto;
+    height: 25px;
+    color: #A52A2A;
+    font-size: 12px;
+}
+
+.button {
+    height: 50px;
+    font-size: 15px;
+    background-color: #90ff77;
+    border: 2px solid #90ff77;
+    color: #1f4f16;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.button:hover {
+    color: green;
+    background-color: #b1ff9a;
+    border: 2px solid #b1ff9a;
 }

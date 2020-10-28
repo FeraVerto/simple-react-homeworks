@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import Affair from "./Affair";
 import s from "./Affairs.module.css"
 import {AffairType, FilterType} from "./HW2";
+import AlternativeAffairs from "./AlternativeAffairs";
+import {log} from "util";
 
 type AffairsPropsType = { // need to fix any
     data: Array<AffairType>
@@ -32,6 +34,7 @@ function Affairs(props: AffairsPropsType) {
     const setLow = () => {
         props.setFilter("low")
     };
+    
 
     return (
         <div className={s.body}>
