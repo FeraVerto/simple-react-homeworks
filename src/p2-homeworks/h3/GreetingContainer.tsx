@@ -26,11 +26,11 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const addUser = () => {
         if (name.trim().length) {
             addUserCallback(name);
-            alert(`${name}, распределяющая шляпа отправила вас в Томское тракторно-моторное училище!`);
-            setName("");
+            alert(`${name.trim()}, распределяющая шляпа отправила вас в Томское тракторно-моторное училище!`);
         } else {
             setError("Ты тот, кого нельзя назвать?!");
         }
+        setName("");
     };
 
     return (
