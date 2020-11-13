@@ -1,23 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-/*
-@keyframes go-left-right {   !* назовём анимацию: "go-left-right" *!
-    from {
-        left: 0;               !* от: left: 0px *!
-    }
-    to {
-        left: calc(100% - 50px); !* до: left: 100%-50px *!
-    }
-}
-
-.navbar_animation {
-    animation: go-left-right 3s infinite alternate;
-    border: 2px solid red;
-}
-*/
-
-
-
-
 
 .navbar_block {
     margin: 25px;
@@ -45,8 +26,6 @@
 }
 
 .navbar {
-    margin: 0;
-    padding: 0;
     display: flex;
     list-style: none;
     text-transform: uppercase;

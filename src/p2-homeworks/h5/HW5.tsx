@@ -5,7 +5,6 @@ import {HashRouter} from "react-router-dom";
 import {Navbar} from "./Navbar/Navbar";
 import "./HW5.css";
 
-
 function HW5() {
 
     let [collapsedNavbar, setCollapsedNavbar] = useState(true);
