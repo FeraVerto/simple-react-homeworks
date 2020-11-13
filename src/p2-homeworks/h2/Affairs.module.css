@@ -1,7 +1,7 @@
 
 .body {
     padding: 20px;
-    width: 200px;
+    width: 250px;
     min-height: 150px;
     border: 2px solid white;
     display: flex;
@@ -28,10 +28,16 @@
 
 .name {
     color: black;
-    width: 150px;
+    width: 200px;
     border-bottom: 2px solid mediumseagreen;
     text-transform: uppercase;
     overflow:hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.priority {
+    background-color: #bcf5ac;
 }
 
 .name:hover {

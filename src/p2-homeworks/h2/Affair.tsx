@@ -17,7 +17,9 @@ function Affair(props: AffairPropsType) {
         <div className={s.affair}>
             <div className={s.name}>
                 {props.affair.name}
-                {props.affair.priority}
+                <div className={s.priority}>
+                    {props.affair.priority}
+                </div>
             </div>
             <div className={s.del_button}>
                 <button onClick={deleteCallback}>X</button>
