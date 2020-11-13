@@ -14,8 +14,8 @@ function HW1() {
 
     return (
         <div>
-            <hr/>
-            homeworks 1
+            {/*<hr/>
+            homeworks 1*/}
 
             {/*should work (должно работать)*/}
 
@@ -26,10 +26,10 @@ function HW1() {
                 time={messageData.time}
             />
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeMessage/>*/}
-            <hr/>
+           {/* <hr/>
+            для личного творчества, могу проверить
+            <AlternativeMessage/>
+            <hr/>*/}
         </div>
     );
 }

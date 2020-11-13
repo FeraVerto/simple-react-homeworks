@@ -1,0 +1,13 @@
+.pre_junior_list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.pre_junior_item {
+    display: flex;
+    border: 2px solid #00FF00;
+}
