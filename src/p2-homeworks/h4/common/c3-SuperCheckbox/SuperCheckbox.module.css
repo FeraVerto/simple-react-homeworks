@@ -32,10 +32,10 @@
     appearance: none;
 
     transition: all 0.15s ease-out 0s;
-    background: white;
+    background: black;
     outline: none;
-    border: 2px solid rgba(64, 224, 208, 1);
-    color: #fff;
+    border: 2px solid #00ff00;
+    color: black;
     cursor: pointer;
     display: inline-block;
 
@@ -43,7 +43,7 @@
 }
 
 .checkbox:checked {
-    background: #40e0d0;
+    background: #00ff00;
 }
 
 .checkbox:checked::before {
@@ -69,7 +69,7 @@
     -webkit-animation: click-wave 0.65s;
     -moz-animation: click-wave 0.65s;
     animation: click-wave 0.65s;
-    background: #40e0d0;
+    background: #00ff00;
     display: block;
     z-index: 100;
 }

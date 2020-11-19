@@ -40,8 +40,6 @@ function HW2() {
     return (
         <div className={s.main_block}>
 
-            homeworks 2
-
             {/*should work (должно работать)*/}
             <Affairs
                 data={filteredAffairs}

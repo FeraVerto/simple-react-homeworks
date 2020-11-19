@@ -16,7 +16,6 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
 ) => {
 
     const finalClassName = `${red ? s.red : s.default} ${className}`;
-
     return (
         <div className={s.button_container}>
             <button

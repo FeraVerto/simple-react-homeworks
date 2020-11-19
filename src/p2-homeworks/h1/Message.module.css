@@ -1,5 +1,4 @@
 .message {
-    width: max-content;
     padding: 10px;
 
     display: flex;
@@ -9,8 +8,6 @@
 .avatar {
     width: 70px;
     height: 70px;
-
-    margin-left: 25px;
 
     position: relative;
     overflow: hidden;
@@ -34,7 +31,7 @@
 }
 
 .text_block {
-    width: 280px;
+    width: 200px;
     min-height: 70px;
 
     padding: 15px;
@@ -71,10 +68,6 @@
 
     background: darkseagreen;
     border-top-left-radius: 500px;
-}
-
-.message_text {
-    width: 250px;
 }
 
 .time {

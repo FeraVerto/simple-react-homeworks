@@ -21,7 +21,6 @@ function HW4() {
     return (
         <div>
             {/*<hr/>*/}
-            homeworks 4
 
             <div className={s.column}>
                 {/*should work (должно работать)*/}
@@ -50,7 +49,7 @@ function HW4() {
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
-                <SuperCheckbox checked={checked} onChange={testOnChange}/>
+                {/*<SuperCheckbox checked={checked} onChange={testOnChange}/>*/}
             </div>
 
             {/*<hr/>

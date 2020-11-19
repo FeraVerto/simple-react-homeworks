@@ -1,6 +1,6 @@
 import React from "react";
 import Message from "./Message";
-
+import "./HW1.css"
 
 
 function HW1() {
@@ -13,7 +13,7 @@ function HW1() {
     };
 
     return (
-        <div>
+        <div className="hw1_block">
             {/*<hr/>
             homeworks 1*/}
 

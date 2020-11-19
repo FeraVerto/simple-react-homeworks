@@ -5,9 +5,10 @@
     width: 300px;
 
     font-size: 13px;
+    color: white;
 
-    border: 2px solid rgba(64, 224, 208, 1);
-    background: #F6F6f6;
+    border: 2px solid #00ff00;
+    background: black;
     border-radius: 8px;
 }
 
@@ -20,7 +21,7 @@
     font-size: 13px;
 
     border: 2px solid #FF50E5;
-    background: #F6F6f6;
+    background: black;
     border-radius: 8px;
 }
 

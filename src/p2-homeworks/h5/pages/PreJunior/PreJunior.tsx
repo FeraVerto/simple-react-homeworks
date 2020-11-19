@@ -4,16 +4,16 @@ import HW2 from "../../../h2/HW2";
 import HW3 from "../../../h3/HW3";
 import HW4 from "../../../h4/HW4";
 import HW6 from "../../../h6/HW6";
-import "./PreJunior.css"
+import s from "./PreJunior.module.css"
 
 function PreJunior() {
     return (
-        <ul className="pre_junior_list">
-            <li className="pre_junior_item"><HW1/></li>
-            <li className="pre_junior_item"><HW2/></li>
-            <li className="pre_junior_item"><HW3/></li>
-            <li className="pre_junior_item"><HW4/></li>
-            <li className="pre_junior_item"><HW6/></li>
+        <ul className={s.pre_junior_list}>
+            <li className={s.pre_junior_item}><HW1/></li>
+            <li className={s.pre_junior_item}><HW2/></li>
+            <li className={s.pre_junior_item}><HW3/></li>
+            <li className={s.pre_junior_item}><HW4/></li>
+            <li className={s.pre_junior_item}><HW6/></li>
         </ul>
     );
 }

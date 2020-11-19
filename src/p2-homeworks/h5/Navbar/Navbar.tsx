@@ -22,7 +22,6 @@ export function Navbar(props: NavbarType) {
 }
 
 
-
 export function Menu() {
     return (
         <ul className="navbar">
@@ -32,3 +31,6 @@ export function Menu() {
         </ul>
     )
 }
+
+
+

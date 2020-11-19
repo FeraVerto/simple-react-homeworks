@@ -1,18 +1,21 @@
-
 .body {
+    margin: 0 auto;
     padding: 20px;
+
     width: 250px;
-    min-height: 150px;
-    border: 2px solid white;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     background-color: blanchedalmond;
+    border: 2px solid blanchedalmond;
 }
 
 .list {
     margin: 0;
     padding: 0;
+
     list-style: none;
 }
 
@@ -23,17 +26,21 @@
 .affair {
     display: flex;
     justify-content: space-between;
-    overflow:hidden;
+
+    overflow: hidden;
 }
 
 .name {
-    color: black;
     width: 200px;
-    border-bottom: 2px solid mediumseagreen;
-    text-transform: uppercase;
-    overflow:hidden;
+
+    color: black;
+
     display: flex;
     justify-content: space-between;
+
+    border-bottom: 2px solid mediumseagreen;
+    text-transform: uppercase;
+    overflow: hidden;
 }
 
 .priority {
