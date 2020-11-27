@@ -15,10 +15,13 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
         ...restProps
     }
 ) => {
-    const mappedOptions: any[] = options !== undefined ? options.map(t => <option className={s.item} key={t.key} value={t.name}>{t}</option>) : [] //map options with key
+    const mappedOptions: any[] = options !== undefined
+        ? options.map((t, i) => <option className={s.item} key={i} value={t.name}>{t}</option>)
+        : [] //map options with key
 
     const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
         // onChange, onChangeOption
+        onChange && onChange(e)
         onChangeOption !== undefined && onChangeOption(e.currentTarget.value)
     }
 

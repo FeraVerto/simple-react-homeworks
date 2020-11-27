@@ -3,7 +3,7 @@ import Header from "./Header/Header";
 import Routes from "./Routes/Routes";
 import {HashRouter} from "react-router-dom";
 import {Navbar} from "./Navbar/Navbar";
-import "./HW5.css";
+import s from "./HW5.module.css";
 
 function HW5() {
 
@@ -14,7 +14,7 @@ function HW5() {
     }
 
     return (
-        <div className="hw5">
+        <div className={s.hw5}>
             {/*в gh-pages лучше работает HashRouter*/}
             <HashRouter>
 

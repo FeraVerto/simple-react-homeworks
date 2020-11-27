@@ -3,22 +3,31 @@
 .radio {
     padding: 10px;
     margin-top: 10px;
-    color: white;
+
+    height: 120px;
+
+    position: relative;
+
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
     font-family: 'Press Start 2P', cursive;
+    color: white;
+
     border: 2px solid #00FF00;
     border-radius: 7px;
-    position: relative;
 }
 
 input[type="radio"] {
     position: absolute;
+
     opacity: 0;
 }
 
 input[type="radio"] + label {
     position: relative;
+
     cursor: pointer;
     line-height: 30px;
 }
@@ -30,24 +39,30 @@ input[type="radio"] + label {
 
 input[type="radio"] + label:before {
     content: '';
+
     position: absolute;
+
     top: -3px;
     left: 0;
+
     width: 20px;
     height: 20px;
+
     border: 2px solid #00FF00;
-    /*border-radius: 50%;*/
     background: black;
 }
 
 input[type="radio"] + label:after {
     content: '';
+
     position: absolute;
+
     top: 9px;
     left: 12px;
+
     width: 0;
     height: 0;
-    /*border-radius: 50%;*/
+
     background: #00FF00;
     opacity: 0;
     transition: .2s;
@@ -55,8 +70,11 @@ input[type="radio"] + label:after {
 
 input[type="radio"]:checked + label:after {
     opacity: 1;
+
     top: 3px;
     left: 6px;
+
     width: 12px;
     height: 12px;
 }
+

@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {NavLink} from "react-router-dom";
 import {PATH} from "../Routes/Routes";
-import "./Navbar.css";
+import s from "./Navbar.module.css";
 
 
 type NavbarType = {
@@ -11,10 +11,10 @@ type NavbarType = {
 
 export function Navbar(props: NavbarType) {
     return (
-        <div className="navbar_block">
-            <div className="navbar_button" onClick={(e) => {
+        <div className={s.navbar_block}>
+            <div className={s.navbar_button} onClick={(e) => {
                 props.setCollapsedNavbar()
-            }}>Menu <span className="navbar_arrow">></span>
+            }}>Menu <span className={s.navbar_arrow}>></span>
             </div>
             {!props.collapsedNavbar && <Menu/>}
         </div>
@@ -24,10 +24,10 @@ export function Navbar(props: NavbarType) {
 
 export function Menu() {
     return (
-        <ul className="navbar">
-            <li><NavLink to={PATH.PRE_JUNIOR} activeClassName="activeLink">PreJunior</NavLink></li>
-            <li><NavLink to={PATH.JUN} activeClassName="activeLink">Junior</NavLink></li>
-            <li><NavLink to={PATH.JUN_PLUS} activeClassName="activeLink">JuniorPlus</NavLink></li>
+        <ul className={s.navbar}>
+            <li><NavLink to={PATH.PRE_JUNIOR} activeClassName={s.activeLink}>PreJunior</NavLink></li>
+            <li><NavLink to={PATH.JUN} activeClassName={s.activeLink}>Junior</NavLink></li>
+            <li><NavLink to={PATH.JUN_PLUS} activeClassName={s.activeLink}>JuniorPlus</NavLink></li>
         </ul>
     )
 }

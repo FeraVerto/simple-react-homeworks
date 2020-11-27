@@ -2,19 +2,24 @@
 
 .navbar_block {
     margin: 25px;
+
     display: flex;
     align-items: center;
+
     font-family: 'Press Start 2P', cursive;
 }
 
 .navbar_button {
     margin-right: 40px;
+
     width: 10%;
+
     color: white;
     text-transform: uppercase;
     font-size: 35px;
-    display: flex;
     text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #00ff00, 0 0 80px #00ff00, 0 0 90px #00ff00, 0 0 100px #00ff00, 0 0 150px #00ff00;
+
+    display: flex;
 }
 
 .navbar_button:hover {
@@ -28,7 +33,9 @@
 .navbar {
     margin: 0;
     padding: 0;
+
     display: flex;
+
     list-style: none;
     text-transform: uppercase;
     font-size: 20px;
@@ -36,6 +43,7 @@
 
 .navbar li a {
     margin-right: 30px;
+
     text-decoration: none;
     color: white;
 }
