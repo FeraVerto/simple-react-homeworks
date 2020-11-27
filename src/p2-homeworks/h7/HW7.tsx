@@ -9,7 +9,6 @@ function HW7() {
 
     return (
         <div>
-            {/*should work (должно работать)*/}
             <div>
                 <SuperSelect
                     options={arr}
@@ -25,12 +24,8 @@ function HW7() {
                     onChangeOption={onChangeOption}
                 />
             </div>
-
-            {/*<hr/>*/}
-            {/*для личного творчества, могу проверить*/}
             {/*<AlternativeSuperSelect/>*/}
             {/*<AlternativeSuperRadio/>*/}
-            {/*<hr/>*/}
         </div>
     );
 }
