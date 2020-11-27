@@ -1,12 +1,14 @@
 import React from "react";
 import s from "../Jun/Jun.module.css";
 import HW7 from "../../../h7/HW7";
+import HW8 from "../../../h8/HW8";
 
 function Jun() {
     return (
         <div>
             <ul className={s.pre_junior_list}>
                 <li className={s.pre_junior_item}><HW7/></li>
+                <li className={s.pre_junior_item}><HW8/></li>
             </ul>
         </div>
     );
