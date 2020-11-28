@@ -59,7 +59,7 @@
     0 0 100px #ff00de, 0 0 150px #ff00de;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .navbar_block {
         flex-direction: column;
         align-items: start;
