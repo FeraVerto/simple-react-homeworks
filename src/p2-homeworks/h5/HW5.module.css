@@ -3,7 +3,7 @@
     margin-right: 30px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .hw5 {
         margin: 0;
     }

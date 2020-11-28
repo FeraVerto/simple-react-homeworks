@@ -20,3 +20,14 @@
 
     border: 2px solid #00FF00;
 }
+
+@media screen and (max-width: 450px) {
+    .pre_junior_list {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .pre_junior_item {
+        margin-bottom: 20px;
+    }
+}
