@@ -3,15 +3,14 @@
     padding: 0;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     flex-wrap: wrap;
 }
 
 .pre_junior_item {
     padding: 15px;
     margin-bottom: 50px;
-
-    width: 350px;
+    margin-right: 25px;
 
     display: flex;
 
@@ -29,5 +28,6 @@
 
     .pre_junior_item {
         margin-bottom: 20px;
+        margin-right: 0;
     }
 }

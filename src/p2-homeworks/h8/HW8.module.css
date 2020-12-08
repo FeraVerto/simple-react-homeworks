@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.sort_people {
+    display: flex;
+
+}
+
+.people_list {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.people_item {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.people_item div {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.button_block {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 450px) {
+    .people_item {
+        font-size: 12px;
+    }
+}
