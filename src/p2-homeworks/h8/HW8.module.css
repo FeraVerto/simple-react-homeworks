@@ -25,6 +25,10 @@
     margin-right: 15px;
 }
 
+.people_item div:last-child {
+    margin-bottom: 0;
+}
+
 .button_block {
     height: 260px;
     display: flex;
