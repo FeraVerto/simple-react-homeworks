@@ -10,7 +10,7 @@ function Jun() {
             <ul className={s.pre_junior_list}>
                 <li className={s.pre_junior_item}><HW7/></li>
                 <li className={s.pre_junior_item}><HW8/></li>
-                {/*<li className={s.pre_junior_item}><HW9/></li>*/}
+                <li className={s.pre_junior_item}><HW9/></li>
 
             </ul>
         </div>

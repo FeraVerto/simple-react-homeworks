@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.clock_date {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.string_time {
+    width: 100%;
+    height: 40px;
+    font-size: 35px;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 40px #00ff00,
+    0 0 80px #00ff00,
+    0 0 90px #00ff00;
+}
+
+.string_date {
+    margin-top: 10px;
+    text-shadow: 0 0 5px #ffffff,
+    0 0 10px #ff00de,
+    0 0 20px #ff00de,
+    0 0 40px #ff00de,
+    0 0 80px #ff00de,
+    0 0 90px #ff00de;
+}
+
+.button_clock {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.string_date_hidden {
+    display: none;
+}
+
+
