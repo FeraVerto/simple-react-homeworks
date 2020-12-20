@@ -13,7 +13,6 @@ function Jun() {
                 <li className={s.pre_junior_item}><HW8/></li>
                 <li className={s.pre_junior_item}><HW9/></li>
                 <li className={s.pre_junior_item}><HW10/></li>
-
             </ul>
         </div>
     );

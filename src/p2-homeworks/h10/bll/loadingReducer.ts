@@ -1,17 +1,22 @@
-const initState = {
-    loading: false
-};
+import {AppStoreType} from "./store";
 
-export type initStateType = {
+type loadingState = {
     loading: boolean
 }
 
-export type ActionType = {
+let initState = {
+    loading: false
+};
+
+
+export type loadingAC = {
     type: "TOGGLE_LOADING",
     loading: boolean
 }
 
-export const loadingReducer = (state = initState, action: ActionType): initStateType => { // fix any
+export type ActionType = loadingAC
+
+export const loadingReducer = (state = initState, action: ActionType): loadingState => { // fix any
     switch (action.type) {
         case "TOGGLE_LOADING": {
             return {...state, loading: action.loading};
@@ -21,6 +26,6 @@ export const loadingReducer = (state = initState, action: ActionType): initState
     }
 };
 
-export const loadingAC = (loading: boolean): any => (
+export const loadingAC = (loading: boolean): ActionType => (
     {type: "TOGGLE_LOADING", loading}
 ); // fix any

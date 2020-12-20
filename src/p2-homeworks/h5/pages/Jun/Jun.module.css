@@ -3,14 +3,13 @@
     padding: 0;
 
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .pre_junior_item {
     padding: 15px;
     margin-bottom: 50px;
-    margin-right: 25px;
 
     display: flex;
 
