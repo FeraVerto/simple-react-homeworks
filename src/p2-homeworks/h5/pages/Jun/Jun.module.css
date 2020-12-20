@@ -29,5 +29,6 @@
     .pre_junior_item {
         margin-bottom: 20px;
         margin-right: 0;
+        min-height: 200px;
     }
 }

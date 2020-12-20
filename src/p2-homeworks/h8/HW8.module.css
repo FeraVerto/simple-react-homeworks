@@ -2,7 +2,6 @@
 
 .sort_people {
     display: flex;
-
 }
 
 .people_list {
@@ -15,7 +14,6 @@
 .people_item {
     display: flex;
     justify-content: space-between;
-
     color: white;
     font-family: 'Press Start 2P', cursive;
     font-size: 20px;

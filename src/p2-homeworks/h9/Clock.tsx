@@ -39,8 +39,8 @@ function Clock() {
 
     const stringDate = date !== undefined &&
         converterDate(date?.getDate())
-        + ":" + converterDate(date?.getMonth())
-        + ":" + date?.getFullYear(); // fix with date
+        + "." + converterDate(date?.getMonth())
+        + "." + date?.getFullYear(); // fix with date
 
     return (
         <div className={s.clock}>
