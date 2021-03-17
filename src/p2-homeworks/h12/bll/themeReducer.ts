@@ -1,14 +1,24 @@
-const initState = {
+const CHANGE_THEME = "hw12/themeReducer/CHANGE_THEME"
 
+const initState = {
+    theme: ""
 };
 
-export const themeReducer = (state = initState, action: any): any => { // fix any
+type changeThemeCType = ReturnType<typeof changeThemeC>
+
+export const themeReducer = (state = initState, action: changeThemeCType): any => { // fix any
     switch (action.type) {
-        case "": {
-            return state;
+        case CHANGE_THEME: {
+            return {
+                ...state,
+                theme: action.value
+            };
         }
         default: return state;
     }
 };
 
-export const changeThemeC = (): any => {}; // fix any
+export const changeThemeC = (value: string): any => ({
+    type: CHANGE_THEME,
+    value
+} as const); // fix any

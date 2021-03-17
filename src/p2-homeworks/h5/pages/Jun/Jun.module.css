@@ -10,6 +10,8 @@
 .pre_junior_item {
     padding: 15px;
     margin-bottom: 50px;
+    
+    /*max-width: 400px;*/
 
     display: flex;
 
